@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Large data and trained model artifacts
+cvd_models/
+cvd_model_improved.keras
+*.keras
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.bin
+*.onnx
+
+# Dataset and output folders
+dataset/
+label DS/
+research papers/
+tabular_model_outputs/
+
+# Presentation files
+*.pptx
